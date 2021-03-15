@@ -32,8 +32,11 @@ config :ueberauth, Ueberauth,
   ]
 
 config :ueberauth, Ueberauth.Strategy.Google.OAuth,
-  client_id: "423035200179-o2dfu7herhjhs00tv4catmcnlsmv602i.apps.googleusercontent.com", #made up code
-  client_secret: "twHyuou0eCvRk1w05aovOjG9" #made up code
+  # made up code
+  client_id: "423035200179-o2dfu7herhjhs00tv4catmcnlsmv602i.apps.googleusercontent.com",
+  # made up code
+  client_secret: "twHyuou0eCvRk1w05aovOjG9"
+
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
 import_config "#{Mix.env()}.exs"
